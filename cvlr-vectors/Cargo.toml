@@ -1,0 +1,16 @@
+[package]
+name = "cvlr-vectors"
+authors = ["Jorge A. Navas <jorge@certora.com>"]
+version.workspace = true
+edition = "2021"
+
+
+[dependencies]
+borsh0_10 = { package = "borsh", version = "0.10" }
+borsh0_9 = { package = "borsh", version = "0.9" }
+cvlr-asserts = { workspace = true }
+cvlr-nondet = { workspace = true }
+
+[features]
+certora-debug = []
+
